@@ -27,14 +27,14 @@ Partial Class log
         '
         'lblLogText
         '
-        Me.lblLogText.AutoSize = True
         Me.lblLogText.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLogText.ForeColor = System.Drawing.Color.White
-        Me.lblLogText.Location = New System.Drawing.Point(3, 9)
+        Me.lblLogText.Location = New System.Drawing.Point(3, 0)
         Me.lblLogText.Name = "lblLogText"
-        Me.lblLogText.Size = New System.Drawing.Size(49, 16)
+        Me.lblLogText.Size = New System.Drawing.Size(604, 50)
         Me.lblLogText.TabIndex = 0
         Me.lblLogText.Text = "Label1"
+        Me.lblLogText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'log
         '
@@ -43,9 +43,8 @@ Partial Class log
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(45, Byte), Integer))
         Me.Controls.Add(Me.lblLogText)
         Me.Name = "log"
-        Me.Size = New System.Drawing.Size(380, 36)
+        Me.Size = New System.Drawing.Size(607, 50)
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 

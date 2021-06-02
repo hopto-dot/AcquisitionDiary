@@ -42,7 +42,7 @@ Partial Class Entry
         Me.flpEntries.AutoScroll = True
         Me.flpEntries.Location = New System.Drawing.Point(7, 34)
         Me.flpEntries.Name = "flpEntries"
-        Me.flpEntries.Size = New System.Drawing.Size(427, 214)
+        Me.flpEntries.Size = New System.Drawing.Size(658, 214)
         Me.flpEntries.TabIndex = 2
         '
         'Entry
@@ -55,7 +55,7 @@ Partial Class Entry
         Me.Controls.Add(Me.flpEntries)
         Me.Controls.Add(Me.lblEntryDate)
         Me.Name = "Entry"
-        Me.Size = New System.Drawing.Size(442, 257)
+        Me.Size = New System.Drawing.Size(673, 257)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -29,18 +29,17 @@ Partial Class Form1
         Me.btnSettings = New System.Windows.Forms.Button()
         Me.btnAddEntry = New System.Windows.Forms.Button()
         Me.pnlButtons = New System.Windows.Forms.Panel()
+        Me.Splitter1 = New System.Windows.Forms.Splitter()
         Me.pnlButtons.SuspendLayout()
         Me.SuspendLayout()
         '
         'plMain
         '
-        Me.plMain.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.plMain.BackColor = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer))
-        Me.plMain.Location = New System.Drawing.Point(131, 0)
+        Me.plMain.Dock = System.Windows.Forms.DockStyle.Right
+        Me.plMain.Location = New System.Drawing.Point(139, 0)
         Me.plMain.Name = "plMain"
-        Me.plMain.Size = New System.Drawing.Size(578, 411)
+        Me.plMain.Size = New System.Drawing.Size(610, 411)
         Me.plMain.TabIndex = 1
         '
         'btnEntries
@@ -147,12 +146,23 @@ Partial Class Form1
         Me.pnlButtons.Size = New System.Drawing.Size(133, 411)
         Me.pnlButtons.TabIndex = 2
         '
+        'Splitter1
+        '
+        Me.Splitter1.Location = New System.Drawing.Point(133, 0)
+        Me.Splitter1.MinExtra = 0
+        Me.Splitter1.MinSize = 90
+        Me.Splitter1.Name = "Splitter1"
+        Me.Splitter1.Size = New System.Drawing.Size(8, 411)
+        Me.Splitter1.TabIndex = 3
+        Me.Splitter1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer), CType(CType(18, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(709, 411)
+        Me.ClientSize = New System.Drawing.Size(749, 411)
+        Me.Controls.Add(Me.Splitter1)
         Me.Controls.Add(Me.pnlButtons)
         Me.Controls.Add(Me.plMain)
         Me.MinimumSize = New System.Drawing.Size(623, 375)
@@ -169,4 +179,5 @@ Partial Class Form1
     Friend WithEvents btnSettings As Button
     Friend WithEvents btnAddEntry As Button
     Friend WithEvents pnlButtons As Panel
+    Friend WithEvents Splitter1 As Splitter
 End Class

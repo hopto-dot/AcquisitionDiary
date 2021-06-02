@@ -26,11 +26,11 @@ Partial Class AddEntry
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.btnAddEntry = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.lblTellMeMore = New System.Windows.Forms.Label()
+        Me.lblWhichDay = New System.Windows.Forms.Label()
+        Me.lblRating = New System.Windows.Forms.Label()
+        Me.lblWhatDid = New System.Windows.Forms.Label()
+        Me.lblWhatDuration = New System.Windows.Forms.Label()
         Me.dtEntryDate = New MetroFramework.Controls.MetroDateTime()
         Me.cbbEntryType = New MetroFramework.Controls.MetroComboBox()
         Me.tbxDuration = New MetroFramework.Controls.MetroTextBox()
@@ -86,57 +86,57 @@ Partial Class AddEntry
         Me.btnAddEntry.Text = "Add Entry"
         Me.btnAddEntry.UseVisualStyleBackColor = False
         '
-        'Label1
+        'lblTellMeMore
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(12, 144)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(103, 24)
-        Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Tell me more!"
+        Me.lblTellMeMore.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTellMeMore.ForeColor = System.Drawing.Color.Transparent
+        Me.lblTellMeMore.Location = New System.Drawing.Point(12, 144)
+        Me.lblTellMeMore.Name = "lblTellMeMore"
+        Me.lblTellMeMore.Size = New System.Drawing.Size(103, 24)
+        Me.lblTellMeMore.TabIndex = 6
+        Me.lblTellMeMore.Text = "Tell me more!"
         '
-        'Label2
+        'lblWhichDay
         '
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(12, 10)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(286, 23)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Which day are you adding an entry for?"
+        Me.lblWhichDay.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWhichDay.ForeColor = System.Drawing.Color.Transparent
+        Me.lblWhichDay.Location = New System.Drawing.Point(12, 10)
+        Me.lblWhichDay.Name = "lblWhichDay"
+        Me.lblWhichDay.Size = New System.Drawing.Size(286, 23)
+        Me.lblWhichDay.TabIndex = 6
+        Me.lblWhichDay.Text = "Which day are you adding an entry for?"
         '
-        'Label3
+        'lblRating
         '
-        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Transparent
-        Me.Label3.Location = New System.Drawing.Point(12, 213)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 24)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Rating"
+        Me.lblRating.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.lblRating.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRating.ForeColor = System.Drawing.Color.Transparent
+        Me.lblRating.Location = New System.Drawing.Point(12, 213)
+        Me.lblRating.Name = "lblRating"
+        Me.lblRating.Size = New System.Drawing.Size(58, 24)
+        Me.lblRating.TabIndex = 6
+        Me.lblRating.Text = "Rating"
         '
-        'Label4
+        'lblWhatDid
         '
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(12, 76)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(139, 23)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = "What did you do?"
+        Me.lblWhatDid.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWhatDid.ForeColor = System.Drawing.Color.Transparent
+        Me.lblWhatDid.Location = New System.Drawing.Point(12, 76)
+        Me.lblWhatDid.Name = "lblWhatDid"
+        Me.lblWhatDid.Size = New System.Drawing.Size(139, 23)
+        Me.lblWhatDid.TabIndex = 6
+        Me.lblWhatDid.Text = "What did you do?"
         '
-        'Label5
+        'lblWhatDuration
         '
-        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Transparent
-        Me.Label5.Location = New System.Drawing.Point(378, 76)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(71, 24)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Duration"
+        Me.lblWhatDuration.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblWhatDuration.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblWhatDuration.ForeColor = System.Drawing.Color.Transparent
+        Me.lblWhatDuration.Location = New System.Drawing.Point(378, 76)
+        Me.lblWhatDuration.Name = "lblWhatDuration"
+        Me.lblWhatDuration.Size = New System.Drawing.Size(71, 24)
+        Me.lblWhatDuration.TabIndex = 8
+        Me.lblWhatDuration.Text = "Duration"
         '
         'dtEntryDate
         '
@@ -243,11 +243,11 @@ Partial Class AddEntry
         Me.Controls.Add(Me.tbxDuration)
         Me.Controls.Add(Me.cbbEntryType)
         Me.Controls.Add(Me.dtEntryDate)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblWhatDuration)
+        Me.Controls.Add(Me.lblWhatDid)
+        Me.Controls.Add(Me.lblWhichDay)
+        Me.Controls.Add(Me.lblRating)
+        Me.Controls.Add(Me.lblTellMeMore)
         Me.Controls.Add(Me.btnAddEntry)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -266,11 +266,11 @@ Partial Class AddEntry
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents btnAddEntry As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lblTellMeMore As Label
+    Friend WithEvents lblWhichDay As Label
+    Friend WithEvents lblRating As Label
+    Friend WithEvents lblWhatDid As Label
+    Friend WithEvents lblWhatDuration As Label
     Friend WithEvents dtEntryDate As MetroFramework.Controls.MetroDateTime
     Friend WithEvents cbbEntryType As MetroFramework.Controls.MetroComboBox
     Friend WithEvents tbxDuration As MetroFramework.Controls.MetroTextBox
